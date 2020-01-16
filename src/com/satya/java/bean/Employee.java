@@ -6,6 +6,7 @@ public class Employee {
 	private String empNo;
 	private String dob;
 	private String PANNo;
+	private String email;
 
 	public int getId() {
 		return id;
@@ -45,6 +46,14 @@ public class Employee {
 
 	public void setPANNo(String pANNo) {
 		PANNo = pANNo;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 }
